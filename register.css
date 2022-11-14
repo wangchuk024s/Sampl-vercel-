@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+body{
+  background-color: #9999;
+}
+
+
+ table {
+    position: relative;
+    bottom: -90px;
+    top: 20px;
+    padding: 8px;
+    margin-left:350px;
+    margin-right:350px;
+    background-color: rgb(255, 255, 255);
+    border-spacing: 5mm;
+    border-radius: 30px;
+} 
+input[type=submit] {
+  width: 30%;
+  background-color: rgb(54, 54, 54);
+  color: rgb(255, 255, 255);
+  padding: 5px 5px;
+  margin: 8px 0;
+  border: none;
+  width: 115px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  width: 30%;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 5px 5px;
+  margin: 8px 0;
+  width: 237px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: rgb(0, 0, 0);
+}
+input[type=reset]:hover {
+    background-color: rgb(0, 0, 0);
+  }
+#locationBox{
+  width: 300px;
+}
+#buttons{
+  text-align: center;
+}
+.icons{
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    left: -10px;
+    cursor: pointer;
+}
+.icons i:hover{
+    color:rgb(109, 109, 109);
+}
+
+.copyright{
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  background-color: #1C1C1C;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+@media screen and (max-width:800px){
+  .logo{
+      font-size: 16px;
+      margin-right: 10px;
+  }
+  .topnav a{
+      font-size: 14px;
+  }
+  
+}
+@media screen and (max-width:1000px){
+  .container{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+}

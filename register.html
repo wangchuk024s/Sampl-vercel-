@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+   
+    <form> 
+        <table>  
+            <tr> 
+                <td> 
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email Address" size="40" required>
+                <br>
+                </td>
+            </tr>
+            <tr> 
+            <td>
+                <label for="password"></label>  
+                <input type="password" id="password" placeholder="Password" size="40" required>
+                <br>
+                </td>
+            </tr>
+            <tr> 
+                <td> 
+                <label for="locationBox"></label>
+                <select id="locationBox" name="loactionList" form="Location">
+                <option value="Location"disabled selected hidden>Location</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Africa">Africa</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Australia">Australia</option>
+                </select>
+                <br>
+                </td>
+            </tr>   
+            <tr> 
+                <td>
+                <label>Gender:</label>
+                <label for="male">Male</label>
+                <input name="Gender" id="male" value="Male" type="radio">
+                <label for="female">Female</label>
+                <input name="Gender" id="female" value="Female" type="radio">
+                <label for="secret">Other</label>
+                <input name="Gender" id="secret" value="Secret" type="radio">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="checkbox" id="mailList" name="mailList" value="yes">
+                <label for="mailList"><i>I agree to all the terms and conditions</i></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="icons">
+                        <i class="fa fa-facebook" style="font-size:24px"></i>
+                        &nbsp&nbsp &nbsp<i class="fa fa-twitter" style="font-size:24px"></i>
+                        &nbsp&nbsp &nbsp<i class="fa fa-google" style="font-size:24px"></i>
+                    </div>
+                </td>
+            </tr>   
+                <tr id="buttons">
+                <td>
+                <input type="submit" value="Sign up"  href="index.html"/>
+                <input type="submit" value="Sign in" />
+                <br>
+                <input type="reset" value="Clear" />
+                </td>
+            </tr>
+        </table>     
+    </form>
+    
+   
+    </body>
+    </html>
+  

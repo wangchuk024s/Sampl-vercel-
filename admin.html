@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <input type="checkbox" id = "nav-toggle">
+    <div class="sidebar"> 
+        <div class="sidebar-brand">
+            <h2><span class="fas fa-user"></span><span>Admin Dashboard</span></h2>
+        </div>
+        <div class ="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="#" class = "active"><span class = "fas fa-igloo"></span>
+                    <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class = "fas fa-users"></span>
+                    <span>Customers</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="fa-brands fa-product-hunt"></span>
+                    <span>Products</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class = "fas fa-shopping-bag"></span>
+                    <span>Orders</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="fas fa-truck"></span>
+                    <span>Delivery</span></a>
+                </li>
+                <li>
+                    <a href="#"><span class="fas fa-user-circle"></span>
+                    <span>Accounts</span></a>
+                </li>
+                <li>
+                    <a href="index.html"><span class="fas fa-user"></span>
+                    <span>View as Customer</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class = "fas fa-bars"></span>
+                </label>
+                Dashboard
+
+            </h2>
+            <div class="search-wrapper">
+                <span class="fas fa-search"></span>
+                <input type="text" placeholder="Search here">
+            </div>
+            <div class="user-wrapper">
+                <img src="images/sonam.png" width = "40px" height = "40px" alt="">
+                <div>
+                    <h1>Sonam</h1>
+                    <small>Admin</small>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>79</h1>
+                        <span>New products</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-clipboard-list"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>124</h1>
+                        <span>Orders</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-shopping-bag"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>Nu.10k</h1>
+                        <span>sale</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-chart-line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-grid">
+                <div class="Projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Recent Projects</h3>
+                            <button>See all<span class="fas fa-arrow-right">
+
+                            </span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                            <table width = "100%">
+                                <thead>
+                                    <tr>
+                                        <td>Products</td>
+                                        <td>Location for delivery</td>
+                                        <td>Status</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Nike AIR Jordan1</td>
+                                        <td>lhuntse</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            delivered
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nike Air Force white</td>
+                                        <td>Mongar</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            in progress
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Canverse white</td>
+                                        <td>Thimphu</td>
+                                        <td>
+                                            <span class="status orange"></span>
+                                            pending
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jordan 5</td>
+                                        <td>paro</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            delivered
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nike Air Force Panda</td>
+                                        <td>Haa</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            delivered
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Off White</td>
+                                        <td>Zhemgang</td>
+                                        <td>
+                                            <span class="status orange"></span>
+                                            pending
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DUNKY</td>
+                                        <td>Punakha</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            in progress
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Yezzeys</td>
+                                        <td>Trongsa</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            in progress
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Back To the future</td>
+                                        <td>Tashigang</td>
+                                        <td>
+                                            <span class="status orange"></span>
+                                            delivered
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>New Customer</h4>
+                            <button>See all<span class="fas fa-arrow-right">
+
+                            </span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="images/pic7.png" width = "40px" height = "40px" alt="">
+                                    <div>
+                                        <h4>Tandin</h4>
+                                        <small>cus-008</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="fas fa-user-circle"></span>
+                                <span class="fas fa-comment"></span>
+                                <span class="fas fa-phone"></span>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="images/pic6.png" width = "40px" height = "40px" alt="">
+                                    <div>
+                                        <h4>Yangzom</h4>
+                                        <small>cus_005</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="fas fa-user-circle"></span>
+                                <span class="fas fa-comment"></span>
+                                <span class="fas fa-phone"></span>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="images/pic4.png" width = "40px" height = "40px" alt="">
+                                    <div>
+                                        <h4>Sherab</h4>
+                                        <small>cus_004</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="fas fa-user-circle"></span>
+                                <span class="fas fa-comment"></span>
+                                <span class="fas fa-phone"></span>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="images/pic3.png" width = "40px" height = "40px" alt="">
+                                    <div>
+                                        <h4>Sapuna</h4>
+                                        <small>cus_0001</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="fas fa-user-circle"></span>
+                                <span class="fas fa-comment"></span>
+                                <span class="fas fa-phone"></span>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="images/pic2.png" width = "40px" height = "40px" alt="">
+                                    <div>
+                                        <h4>Tashi</h4>
+                                        <small>cus_003</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="fas fa-user-circle"></span>
+                                <span class="fas fa-comment"></span>
+                                <span class="fas fa-phone"></span>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="images/pic1.png" width = "40px" height = "40px" alt="">
+                                    <div>
+                                        <h4>Sonam</h4>
+                                        <small>cus_0001</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="fas fa-user-circle"></span>
+                                <span class="fas fa-comment"></span>
+                                <span class="fas fa-phone"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
